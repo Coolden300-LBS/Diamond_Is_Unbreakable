@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    height: max-content;
+    background-color: black;
+}
+
+#the-diamond {
+    background-image: url("Assets/Textures/theDiamond.png");
+    background-size: 100%;
+    background-position: -4px 58%;
+    background-color: transparent;
+
+    height: 300px;
+    aspect-ratio: 1.35; /*To scale it evenly*/
+}
